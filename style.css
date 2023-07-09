@@ -1,0 +1,51 @@
+* {
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+    /* height: auto; */
+  width: 300px;
+}
+ul {
+  list-style: none;
+}
+h1 {
+  color: rgb(255,50,50,0.3);
+}
+.recipe-card {
+  width: 500px;
+  background-color: #fffafa;
+  text-align: center;
+  border: 2px solid darkblue;
+}
+.recipe-card p {
+  text-align: left;
+}
+.recipe-card a {
+    background-color: #fc9400;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+h1,
+a {
+  text-transform: uppercase;
+}
+
+.first-p.pres{
+    color: blueviolet;
+}
+
+ul h2,
+li h2 {
+    font-size: 16px;
+}
+.jeanne {
+    font-size: 20px;
+}
+.jeanne#d-arc {
+    color: lightblue;
+}
