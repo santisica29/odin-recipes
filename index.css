@@ -1,0 +1,30 @@
+ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+ul li {
+    background-color: rgb(184, 184, 224);
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 20px 4px gray;
+    flex: 1;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.hamburguesa{
+    flex: 2;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li:hover {
+    background: rgba(157, 157, 204, 0.904);
+    
+}
